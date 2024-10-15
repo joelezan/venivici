@@ -1,0 +1,37 @@
+/* app.css */
+.container {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  padding: 20px;
+  gap: 20px; 
+}
+
+.left-column, .middle-column, .right-column {
+  flex: 1; /* Each column takes equal space */
+  padding: 20px;
+  box-sizing: border-box; 
+}
+
+.left-column, .right-column {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.middle-column {
+  text-align: center;
+}
+
+.dog-image {
+  width: 33%; 
+  height: auto;
+  max-height: 200px; /* Adjusted size */
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dog-card, button {
+  margin-bottom: 20px;
+}
